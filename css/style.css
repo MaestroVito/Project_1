@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------------------------------------*/
+
+.headerBlock {
+	height: 101vh;
+	background-image: url(../img/veggie1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.headerBlock__column {
+	height: 80%;
+	margin: 20px 20px;
+	float: right;
+}
+
+.headerBlock__menu {
+	width: 50vw;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+}
+
+.headerBlock__menu li {
+	display: inline-block;
+	padding: 15px 25px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.headerBlock__menu li:hover {
+	background: darkgrey;
+	color: white;
+	border: 2px solid black;
+}
+
+.headerBlock__title {
+	height: 80%;
+	width: 100%;
+	color: black;
+	float: right;
+	text-align: center;
+	padding-top: 30%;
+	font-size: 40px;
+}
+
+/*--------------------------------------------------*/
+
+.yellowBlock {
+	background-color: orange;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 20px 20px;
+	text-align: center;
+	color: #333333;
+}
+
+.yellowBlock_column {
+	width: 400px;
+	margin: 20px 0px;
+}
+
+.yellowBlock_column p {
+	font-size: 25px;
+	margin: 10px 0px;
+}
+
+.yellowBlock_column i {
+	font-size: 50px;
+	margin: 10px 0px;
+}
+
+/*--------------------------------------------------*/
+
+.gridBlock {
+/*	height: 80vh;*/
+}
+
+.gridBlock__title {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 35px;
+}
+
+.gridBlock__menu {
+	margin: 20px 10% 60px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	color: #383838;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.gridBlock__menu div {
+	background: #f2f2f2;
+	height: 220px;
+	width: 100%;
+}
+
+.gridBlock__menu img {
+	height: 100%;
+	width: 100%;
+}
+
+.gridBlock__layer {
+    overflow: auto;
+} 
+
+.gridBlock__layer h2 {
+	margin: 30px 10px 10px;
+	text-align: center;
+}
+
+.gridBlock__layer hr {
+	margin: 10px 60px;
+}
+
+.gridBlock__layer p {
+	margin: 10px 10px;
+	text-align: center;
+}
+
+/*--------------------------------------------------*/
+
+.aboutUsBlock {
+	height: 105vh;
+	background: lightgrey;
+	background-image: url(../img/background_vegan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aboutUsBlock__text {
+	width: 50%;
+	color: black;
+	text-align: center;
+	padding-top: 10%;
+	font-size: 40px;
+}
+
+#aboutUsTitleHead {
+	width: 150%;
+	margin-top: 45px;
+	font-family: 'Playball', cursive;
+	font-size: 70px;
+}
+
+/*--------------------------------------------------*/
+
+.menuBlock {
+	height: 100vh;
+}
+
+.menuBlock__title {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 35px;
+}
+
+.menuBlock__menu {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+}
+
+.menuBlock__menu li {
+	display: inline-block;
+	padding: 15px 25px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.menuBlock__menu li:hover {
+	background: darkgrey;
+	color: white;
+	border: 2px solid black;
+}
