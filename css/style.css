@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+li {
+	list-style-type: none;
+}
+
 /*--------------------------------------------------*/
 
 .headerBlock {
@@ -177,4 +181,178 @@
 	background: darkgrey;
 	color: white;
 	border: 2px solid black;
+}
+
+.menuBlock__leftForm {
+	display: inline-block;
+	width: 48%;
+}
+
+.menuBlock__leftForm li {
+	color: #383838;
+	padding: 30px 100px;
+	clear: both;
+}
+
+.menuBlock__rightForm {
+	display: inline-block;
+	width: 48%;
+	float: right;
+}
+
+.menuBlock__rightForm li {
+	color: #383838;
+	padding: 30px 100px;
+	clear: both;
+}
+
+.menuBlock i {
+	font-size: 30px;
+	text-transform: uppercase;
+	float: left;
+}
+
+.menuBlock h3 {
+	float: right;
+	font-size: 30px;
+}
+
+.menuBlock hr {
+	margin-top: 25px;
+}
+
+.menuBlock p {
+	font-size: 20px;
+	float: left;
+	clear: both;
+}
+
+/*--------------------------------------------------*/
+
+.footerBlock {
+	height: 100vh;
+	background-image: url(../img/footerBack.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footerBlock__column {
+	margin: 20px 15%;
+	float: right;
+	background: #f3f3f3;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(170,170,170,1);
+
+}
+
+.footerBlock__title {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 40px;
+}
+
+.footerBlock__leftText {
+	margin: 30px;
+	display: inline-block;
+	width: 35%;
+}
+
+.footerBlock__leftText p {
+	font-size: 30px;
+}
+
+.footerBlock__leftText i {
+	font-size: 20px;
+}
+
+.footerBlock__rightText {
+	margin: 30px;
+	display: inline-block;
+	width: 35%;
+	float: right;
+}
+
+.footerBlock__rightText p {
+	font-size: 30px;
+}
+
+.footerBlock__rightText i {
+	font-size: 20px;
+}
+
+.footerBlock__contact input {
+  	border: 0px;
+  	border-bottom: 1px solid grey;
+  	background-color: transparent;
+}
+
+#name {
+	outline: none;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+    display: inline-block;
+    width: 35%;
+    clear: both;
+    float: left;
+    font-size: 20px;
+}
+
+#email {
+	outline: none;
+	margin-top: 30px;	
+	margin-right: 30px;
+	margin-bottom: 30px;
+    display: inline-block;
+    width: 35%;
+    float: right;
+    font-size: 20px;
+}
+
+#message {
+	outline: none;
+	margin: 30px;
+    width: 89.5%;
+    display: inline-block;
+    float: left;
+    font-size: 20px;   
+}
+
+.send {
+	text-align: center;
+}
+
+.send input {
+	outline: none;
+	height: 50px;
+    width: 140px;
+    margin: 25px;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.links {
+	margin: 7% 15% 0px 0px;
+    float: right;
+    clear: both;
+}
+
+.links__icons {
+    width: 75px;
+    padding: 20px;
+	margin: 20px;
+    border: 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 65px;
+    float: left;
+}
+
+
+.links__icons:hover {
+	background: darkgrey;
+	border: 2px solid grey;
 }
