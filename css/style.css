@@ -14,19 +14,16 @@ li {
 	background-image: url(../img/veggie1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .headerBlock__column {
-	height: 80%;
 	margin: 20px 20px;
 	float: right;
 }
 
 .headerBlock__menu {
-	width: 50vw;
 	text-transform: uppercase;
-	display: flex;
-	justify-content: center;
 }
 
 .headerBlock__menu li {
@@ -130,7 +127,7 @@ li {
 /*--------------------------------------------------*/
 
 .aboutUsBlock {
-	height: 105vh;
+	height: 100vh;
 	background: lightgrey;
 	background-image: url(../img/background_vegan.jpg);
 	background-repeat: no-repeat;
@@ -146,7 +143,6 @@ li {
 }
 
 #aboutUsTitleHead {
-	width: 150%;
 	margin-top: 45px;
 	font-family: 'Playball', cursive;
 	font-size: 70px;
@@ -355,4 +351,75 @@ li {
 .links__icons:hover {
 	background: darkgrey;
 	border: 2px solid grey;
+}
+
+/*--------------------------------------------------*/
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 768px)
+and (min-device-height : 640px)
+and (max-device-height : 1024px) {
+
+
+.headerBlock__column {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 35%;
+}
+
+.headerBlock__menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.headerBlock__title {
+	color: white;
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+/*--------------------------------------------------*/
+
+.gridBlock__menu {
+	margin: 10px;
+}
+
+/*--------------------------------------------------*/
+
+.yellowBlock {
+	background-color: lightgreen;
+}
+
+/*--------------------------------------------------*/
+
+.aboutUsBlock {
+	background-position: center;
+	height: 70vh;
+}
+
+/*--------------------------------------------------*/
+
+.menuBlock {
+	height: 70vh;
+}
+
+/*--------------------------------------------------*/
+
+.footerBlock {
+	height: 70vh;
+}
+
+.footerBlock__column {
+	width: 60%;
+	margin: 10px 20%;
+}
+
+.links__icons {
+	background-color: #517551;
 }
