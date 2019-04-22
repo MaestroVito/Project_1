@@ -323,7 +323,7 @@ li {
 	height: 50px;
     width: 140px;
     margin: 25px;
-    font-weight: bold;
+    font-size: 20px;
     background: transparent;
     border-radius: 5px;
     box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.3);
@@ -406,7 +406,7 @@ and (max-device-height : 1024px) {
 /*--------------------------------------------------*/
 
 .menuBlock {
-	height: 70vh;
+	height: 75vh;
 }
 
 /*--------------------------------------------------*/
