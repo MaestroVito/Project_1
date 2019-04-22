@@ -10,7 +10,7 @@ li {
 /*--------------------------------------------------*/
 
 .headerBlock {
-	height: 101vh;
+	height: 100vh;
 	background-image: url(../img/veggie1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -88,7 +88,8 @@ li {
 }
 
 .gridBlock__menu {
-	margin: 20px 10% 60px;
+	width: 96vw;
+	margin: 20px 2vw 60px;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	color: #383838;
@@ -98,7 +99,6 @@ li {
 .gridBlock__menu div {
 	background: #f2f2f2;
 	height: 220px;
-	width: 100%;
 }
 
 .gridBlock__menu img {
@@ -111,8 +111,10 @@ li {
 } 
 
 .gridBlock__layer h2 {
-	margin: 30px 10px 10px;
-	text-align: center;
+	font-size: 22px;
+	width: 96%;
+    margin: 30px 2% 10px;
+    text-align: center;
 }
 
 .gridBlock__layer hr {
@@ -120,8 +122,9 @@ li {
 }
 
 .gridBlock__layer p {
-	margin: 10px 10px;
-	text-align: center;
+    width: 96%;
+    margin: 10px 2% 0px;
+    text-align: center;
 }
 
 /*--------------------------------------------------*/
@@ -135,15 +138,15 @@ li {
 }
 
 .aboutUsBlock__text {
-	width: 50%;
-	color: black;
-	text-align: center;
-	padding-top: 10%;
-	font-size: 40px;
+	height: 80vh;
+	width: 45%;
+    text-align: center;
+    padding: 10vh 5vw;
+    font-size: 35px;
 }
 
 #aboutUsTitleHead {
-	margin-top: 45px;
+	margin-left: 20vw;
 	font-family: 'Playball', cursive;
 	font-size: 70px;
 }
@@ -151,7 +154,7 @@ li {
 /*--------------------------------------------------*/
 
 .menuBlock {
-	height: 100vh;
+/*	height: 100vh;*/
 }
 
 .menuBlock__title {
@@ -182,6 +185,7 @@ li {
 .menuBlock__leftForm {
 	display: inline-block;
 	width: 48%;
+	margin-bottom: 5vh;
 }
 
 .menuBlock__leftForm li {
@@ -193,6 +197,7 @@ li {
 .menuBlock__rightForm {
 	display: inline-block;
 	width: 48%;
+	margin-bottom: 5vh;
 	float: right;
 }
 
@@ -233,24 +238,26 @@ li {
 }
 
 .footerBlock__column {
-	margin: 20px 15%;
-	float: right;
-	background: #f3f3f3;
-	border-radius: 50px;
-	box-shadow: 0 0 10px rgba(170,170,170,1);
-
+	height: 68vh;
+    margin: 4vh 15%;
+    float: right;
+    background: #f3f3f3;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(170,170,170,1);
 }
 
 .footerBlock__title {
-	text-align: center;
-	padding-top: 30px;
-	font-size: 40px;
+    height: 18vh;
+    text-align: center;
+    padding-top: 2vh;
+    font-size: 40px;
 }
 
 .footerBlock__leftText {
-	margin: 30px;
-	display: inline-block;
-	width: 35%;
+    height: 10vh;
+    margin: 0px 30px;
+    display: inline-block;
+    width: 35%;
 }
 
 .footerBlock__leftText p {
@@ -262,10 +269,11 @@ li {
 }
 
 .footerBlock__rightText {
-	margin: 30px;
-	display: inline-block;
-	width: 35%;
-	float: right;
+    height: 10vh;
+    margin: 0px 30px;
+    display: inline-block;
+    width: 35%;
+    float: right;
 }
 
 .footerBlock__rightText p {
@@ -283,10 +291,9 @@ li {
 }
 
 #name {
-	outline: none;
-	margin-top: 30px;
-	margin-left: 30px;
-	margin-bottom: 30px;
+    outline: none;
+    margin-top: 5vh;
+    margin-left: 30px;
     display: inline-block;
     width: 35%;
     clear: both;
@@ -295,10 +302,9 @@ li {
 }
 
 #email {
-	outline: none;
-	margin-top: 30px;	
-	margin-right: 30px;
-	margin-bottom: 30px;
+    outline: none;
+    margin-top: 5vh;
+    margin-right: 30px;
     display: inline-block;
     width: 35%;
     float: right;
@@ -306,12 +312,12 @@ li {
 }
 
 #message {
-	outline: none;
-	margin: 30px;
+    outline: none;
+    margin: 5vh 30px 0px;
     width: 89.5%;
     display: inline-block;
     float: left;
-    font-size: 20px;   
+    font-size: 20px;  
 }
 
 .send {
@@ -320,9 +326,9 @@ li {
 
 .send input {
 	outline: none;
-	height: 50px;
+    height: 8vh;
     width: 140px;
-    margin: 25px;
+    margin-top: 6vh;
     font-size: 20px;
     background: transparent;
     border-radius: 5px;
@@ -330,7 +336,8 @@ li {
 }
 
 .links {
-	margin: 7% 15% 0px 0px;
+    height: 24vh;
+    margin: 0% 15% 0px 0px;
     float: right;
     clear: both;
 }
@@ -338,7 +345,7 @@ li {
 .links__icons {
     width: 75px;
     padding: 20px;
-	margin: 20px;
+	margin: 0px 15px;
     border: 2px solid lightgrey;
     text-align: center;
     cursor: pointer;
@@ -386,12 +393,6 @@ and (max-device-height : 1024px) {
 
 /*--------------------------------------------------*/
 
-.gridBlock__menu {
-	margin: 10px;
-}
-
-/*--------------------------------------------------*/
-
 .yellowBlock {
 	background-color: lightgreen;
 }
@@ -400,24 +401,53 @@ and (max-device-height : 1024px) {
 
 .aboutUsBlock {
 	background-position: center;
-	height: 70vh;
+}
+
+.aboutUsBlock__text {
+	font-size: 45px;
 }
 
 /*--------------------------------------------------*/
-
-.menuBlock {
-	height: 75vh;
-}
-
-/*--------------------------------------------------*/
-
-.footerBlock {
-	height: 70vh;
-}
 
 .footerBlock__column {
-	width: 60%;
-	margin: 10px 20%;
+	width: 90%;
+	margin: 4vh 5%;
+}
+
+.footerBlock__title {
+    font-size: 50px;
+}
+
+.footerBlock__leftText p {
+	font-size: 40px;
+}
+
+.footerBlock__leftText i {
+	font-size: 30px;
+}
+
+.footerBlock__rightText p {
+	font-size: 40px;
+}
+
+.footerBlock__rightText i {
+	font-size: 30px;
+}
+
+#name {
+    font-size: 30px;
+}
+
+#email {
+    font-size: 30px;
+}
+
+#message {
+    font-size: 30px;  
+}
+
+.send input {
+	width: 220px;
 }
 
 .links__icons {
