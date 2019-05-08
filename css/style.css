@@ -405,87 +405,88 @@ and (min-device-height : 640px)
 and (max-device-height : 1024px) {
 
 
-.headerBlock__column {
-	color: white;
-	text-shadow: 1px 1px 2px black, 0 0 1em black;
-	position: absolute;
-    left: 0;
-    right: 0;
-    margin-top: 35%;
-}
+	.headerBlock__column {
+		color: white;
+		text-shadow: 1px 1px 2px black, 0 0 1em black;
+		position: absolute;
+	    left: 0;
+	    right: 0;
+	    margin-top: 35%;
+	}
 
-.headerBlock__menu {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    font-size: 30px;
-}
+	.headerBlock__menu {
+	    display: flex;
+	    justify-content: center;
+	    width: 100%;
+	    font-size: 30px;
+	}
 
-.headerBlock__title {
-	color: white;
-    padding-top: 30px;
-    font-size: 60px;
-}
+	.headerBlock__title {
+		color: white;
+	    padding-top: 30px;
+	    font-size: 60px;
+	}
 
-/*--------------------------------------------------*/
+	/*--------------------------------------------------*/
 
-.yellowBlock {
-	background-color: lightgreen;
-}
+	.yellowBlock {
+		background-color: lightgreen;
+	}
 
-/*--------------------------------------------------*/
+	/*--------------------------------------------------*/
 
-.aboutUsBlock {
-	background-position: center;
-}
+	.aboutUsBlock {
+		background-position: center;
+	}
 
-.aboutUsBlock__text {
-	font-size: 45px;
-}
+	.aboutUsBlock__text {
+		font-size: 45px;
+	}
 
-/*--------------------------------------------------*/
+	/*--------------------------------------------------*/
 
-.footerBlock__column {
-	width: 90%;
-	margin: 4vh 5%;
-}
+	.footerBlock__column {
+		width: 90%;
+		margin: 4vh 5%;
+	}
 
-.footerBlock__title {
-    font-size: 50px;
-}
+	.footerBlock__title {
+	    font-size: 50px;
+	}
 
-.footerBlock__leftText p {
-	font-size: 40px;
-}
+	.footerBlock__leftText p {
+		font-size: 40px;
+	}
 
-.footerBlock__leftText i {
-	font-size: 30px;
-}
+	.footerBlock__leftText i {
+		font-size: 30px;
+	}
 
-.footerBlock__rightText p {
-	font-size: 40px;
-}
+	.footerBlock__rightText p {
+		font-size: 40px;
+	}
 
-.footerBlock__rightText i {
-	font-size: 30px;
-}
+	.footerBlock__rightText i {
+		font-size: 30px;
+	}
 
-#name {
-    font-size: 30px;
-}
+	#name {
+	    font-size: 30px;
+	}
 
-#email {
-    font-size: 30px;
-}
+	#email {
+	    font-size: 30px;
+	}
 
-#message {
-    font-size: 30px;  
-}
+	#message {
+	    font-size: 30px;  
+	}
 
-.send input {
-	width: 220px;
-}
+	.send input {
+		width: 220px;
+	}
 
-.links__icons {
-	background-color: #517551;
+	.links__icons {
+		background-color: #517551;
+	}
 }
