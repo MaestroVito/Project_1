@@ -7,6 +7,16 @@ li {
 	list-style-type: none;
 }
 
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 /*--------------------------------------------------*/
 
 .headerBlock {
@@ -18,7 +28,7 @@ li {
 }
 
 .headerBlock__column {
-	margin: 20px 20px;
+	margin: 20px 40px;
 	float: right;
 }
 
@@ -73,6 +83,27 @@ li {
 .yellowBlock_column i {
 	font-size: 50px;
 	margin: 10px 0px;
+}
+
+#food:hover {
+	transition: 0.3s;
+	color: #ededed;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+	cursor: default;
+}
+
+#drinks:hover {
+	transition: 0.3s;
+	color: #ededed;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+	cursor: default;
+}
+
+#dessert:hover {
+	transition: 0.3s;
+	color: #ededed;
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+	cursor: default;
 }
 
 /*--------------------------------------------------*/
@@ -132,7 +163,7 @@ li {
 .aboutUsBlock {
 	height: 100vh;
 	background: lightgrey;
-	background-image: url(../img/background_vegan.jpg);
+	background-image: url(../img/background_vegann.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -149,6 +180,11 @@ li {
 	margin-left: 20vw;
 	font-family: 'Playball', cursive;
 	font-size: 70px;
+}
+
+#aboutUsTitleHead:hover {
+	text-shadow: 1px 1px 4px white, 0 0 1em white;
+	cursor: default;
 }
 
 /*--------------------------------------------------*/
